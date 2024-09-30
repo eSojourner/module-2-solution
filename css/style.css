@@ -1,0 +1,159 @@
+/*** Base Style ***/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+p {
+    padding: 30px 5px 10px 10px;
+    text-align: left;
+}
+
+section#chicken {
+    background-color: #787474;
+    border: 1px solid black;
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+section#beef {
+    background-color: #787474;
+    border: 1px solid black;
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+section#sushi {
+    background-color: #787474;
+    border: 1px solid black;
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+
+section {
+    clear: right;
+}
+
+#chicken-title {
+    background-color: rgb(54, 186, 113);
+    float: right;
+    border: 1px solid black;
+    width: 33%;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.25em;
+}
+
+#beef-title {
+    background-color: rgb(43, 81, 185);
+    float: right;
+    border: 1px solid black;
+    width: 33%;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.25em;
+}
+
+#sushi-title {
+    background-color: rgb(189, 101, 29);
+    float: right;
+    border: 1px solid black;
+    width: 33%;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.25em;
+}
+
+/** Large Devices **/ 
+@media (min-width: 992px) {
+    section#chicken {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 31%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#beef {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 31%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#sushi {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 31%;
+        float: left;
+        margin: 1%;
+    }
+}
+
+/** Medium Devices **/
+@media (min-width:768px) AND (max-width:991px) {
+    section#chicken {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#beef {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#sushi {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 98%;
+        float: left;
+        margin: 1%;
+    }
+    
+}
+
+/** Small Devices **/
+@media (max-width:767px) {
+    section#chicken {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 98%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#beef {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 98%;
+        float: left;
+        margin: 1%;
+    }
+    
+    section#sushi {
+        background-color: #787474;
+        border: 1px solid black;
+        width: 98%;
+        float: left;
+        margin: 1%;
+    }
+    
+}
